@@ -41,6 +41,7 @@ document.addEventListener('DOMContentLoaded', function() {
                 });
                 
                 const result = await response.json();
+                console.log(result)
                 
                 if (response.ok && result.status === 'completed') {
                     // Afficher le message de succès à la place du formulaire
