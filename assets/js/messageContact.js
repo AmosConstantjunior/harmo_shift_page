@@ -32,7 +32,7 @@ document.addEventListener('DOMContentLoaded', function() {
             
             try {
                 // Envoyer les données au serveur
-                const response = await fetch('/send_contact_message', {
+                const response = await fetch('https://gamosjunz.pythonanywhere.com/send_contact_message', {
                     method: 'POST',
                     headers: {
                         'Content-Type': 'application/json',
